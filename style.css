@@ -1,5 +1,7 @@
 body{
-    background: linear-gradient(to right, #6f5fff, #7bbcfe);
+    background-color: #6f5fff;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar{
@@ -8,9 +10,20 @@ body{
 }
 footer{
     background-color: black;
+    display: flex;
+    justify-items: center;
     color: white;
-    padding: 200px;
+    height: 500px;
+    padding: 300px;
+    align-items: center;
+
 }
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 .carousel-item{
     height: 500px;
 } 
@@ -22,10 +35,28 @@ main{
     align-items: center;
 }
 
+.visit{
+    font-size: 40px;
+
+}
+
 .heading{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     
+}
+
+.card{
+    width: 500px;
+}
+
+.cards{
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
 }
 
 .participants{
@@ -33,6 +64,38 @@ main{
     
 }
 
+.single{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
 footer img{
     height: 90px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 300px;
+    }
+    .cards{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        display: grid;
+    }
+    .carousel-item{
+        height: 300px;
+    } 
+    .carousel-item img{
+        height: 300px;
+    }
+    .visit{
+        font-size: 20px;
+    
+    }
+    footer{
+        height: 300px;
+        padding: 20px;
+    }
+  }
