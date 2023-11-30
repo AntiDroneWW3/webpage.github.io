@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, #6f5fff, #7bbcfe);
+}
+
+.navbar{
+    background: linear-gradient(to right, #6f5fff, #7bbcfe);
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 200px;
+}
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+}
+
+main{
+    align-items: center;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+}
+
+.participants{
+    font-size: 30px;
+    
+}
+
+footer img{
+    height: 90px;
+}
